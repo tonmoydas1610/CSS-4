@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.head{
+    height:50px;
+    width:100%;
+    background-color: rgb(181, 123, 235);
+    font-size: 25px;
+    position: fixed;
+    top:0;
+ 
+}
+header{
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 35px;
+}
+a{
+  margin-right: 250px;
+}
+.product-card{
+    background-color: rgb(243, 228, 188);
+    width:20%;
+    border:1px solid rgb(172, 116, 165);
+    border-radius: 7px;
+    padding: 12px;
+   
+}
+.product-card .thumbnail{
+    position:relative;
+}
+
+.product-card .thumbnail button{
+    position: absolute;
+    top:80px;
+    left:10%;
+    background-color: rgb(104, 245, 76);
+    color:rgb(205, 232, 255);
+    width:80px;
+}
+.product-card button{
+    display:block;
+    width:100%;
+    padding:10px 10px;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-card #btn-1:hover{
+    background-color: rgb(140, 160, 120);
+    transition: .8s;
+}
+
+.product-card #btn-2:hover{
+    background-color: rgb(172, 203, 250);
+    transition: .8s;
+}
+#sticky{
+    position: sticky;
+    background-color: rgb(175, 80, 155);
+    border: 2px solid rgb(253, 105, 46);
+    top:20px;
+    width: 80px;
+    font-size: 30px;
+    border-radius: 7px;
+
+}
+#btn-3{
+    position:fixed;
+    right:0;
+    top:50%;
+    background-color: rgb(235, 121, 206);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: rgb(2, 21, 37);
+    font-size: 20px;
+    cursor:pointer;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 5em;
+    margin-block-end: 3em;
+    margin-inline-start: 2px;
+    margin-inline-end: 1px;
+}
